@@ -1,0 +1,21 @@
+.hotel-text {
+  width: 258px;
+  height: 76px;
+  @include font(600, 12px, 1.25, 0.02em);
+  color: $colorTextPrimary;
+  margin-top: 12px;
+
+  @include tablet {
+    width: 439px;
+    height: 80px;
+    margin-top: 16px;
+    @include font(600, 16px, 1.25, 0.02em);
+  }
+
+  @include desktop {
+    width: 400px;
+    height: 83px;
+    margin-top: 24px;
+    color: $colorTextRooms;
+  }
+}
